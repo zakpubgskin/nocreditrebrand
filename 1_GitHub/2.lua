@@ -706,7 +706,7 @@ local VIPLicenseCore = (function()
 
     local CreateLocalExpiry = function(cfg)
         local E = {}
-        local expiredText = 'Mod expired. Contact @ZakPubgSkin for renewal.'
+        local expiredText = 'Mod expired. Contact for renewal.'
         local tamperText  = "Don't be over smart"
         local blockedMessage, blockedPhase
         local function finite(n) return type(n) == 'number' and n == n and n ~= math.huge and n ~= -math.huge end
@@ -1243,7 +1243,7 @@ end)()
                 d.Detail=text("NO KILL LIMIT",px+16,109,pw-32,34,23,white,7,true,true)
                 d.Hint=text("PLAY SMART LIKE PRO",30,165,W-60,32,17,forest,7,true,true)
             else
-                d.Title=text("TELEGRAM ZakPubgSkin",22,15,W-44,31,24,white,7,true,true)
+                d.Title=text("VIP PREMIUM PAK",22,15,W-44,31,24,white,7,true,true)
                 text("LOGIN PAGE",22,45,W-44,21,12,white,7,true,true)
                 line(W/2-118,56,W/2-47,56,1,color(251,244,228),7)
                 line(W/2+47,56,W/2+118,56,1,color(251,244,228),7)
@@ -1882,7 +1882,7 @@ Other[#Other+1] = {
             GetFunc=function() return featureState().Settings[key] end,
             SetFunc=function(c,v) return featureState().SetWallColor(key,value(c,v)) end})
     end
-    local page={Key="HackMenu",Text="VIP ZakPubgSkin MENU",UIKey="Setting_Page_Privacy",Category={
+    local page={Key="HackMenu",Text="VIP MENU",UIKey="Setting_Page_Privacy",Category={
         {Key="Lunar_ESP_V1",Text="ESP V1",Stack=V1},
         {Key="Lunar_ESP_V2",Text="ESP V2",Stack=V2},
         {Key="Lunar_Other",Text="EXTRA FEATURES",Stack=Other}
