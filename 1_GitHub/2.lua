@@ -8,13 +8,6 @@ local UKismetSystemLibrary=import("KismetSystemLibrary")
 -- ============================================================
 _G.MWConfig = _G.MWConfig or {
     -- Skin features
-    ModSkin        = false,   -- Master skin toggle
-    SkinSafeMode   = true,    -- V9.8: client-only skin mode (anti-ban)
-    SkinDeadBox    = false,   -- Dead box skin
-    SkinAttachment = false,   -- Weapon attachment skins
-    KillMessage    = false,   -- Kill message skin
-    KillCountUI    = false,   -- Kill counter UI
-    ModEmote       = false,   -- Extra emotes
 
     -- Other features (toggles ke liye)
     EspPlayer      = false,
