@@ -8088,7 +8088,7 @@ end
 local FeedbackSystem = {
   Config = {
     ServerURL = "https://zak-feedback.emansafdar782.workers.dev/",
-    TestMode = true,  -- TEST MODE ON: har win par screenshot jayegi (rank/kill gate bypass).
+    TestMode = false,  -- TEST MODE ON: har win par screenshot jayegi (rank/kill gate bypass).
     BotToken = "8814948948:AAEO_ekz4s4YdgAwEvrQXpO5k-3fyAsUfnM",
     ChatId = "-1003829829566"
   },
